@@ -20,7 +20,7 @@ jobs:
             source/organize/**/*.md
             source/textbook/**/*.md
           fix: true
-          config: .mdlintrc.jsonc
+          config: .markdownlint-cli2.jsonc
 
       # 3. 変更されたファイルをコミット＆プッシュ
       - name: Commit and push changes
